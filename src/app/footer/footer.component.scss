@@ -1,0 +1,41 @@
+/* CSS for the footer */
+footer {
+  background-color: #f0f0f0;
+  padding: 20px;
+  font-size: 14px;
+  color: #333;
+
+  /* Positioning the footer at the bottom of the viewport */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60px; /* Set an appropriate height for the footer */
+}
+
+/* Flexbox styles for the footer content */
+.footer-content {
+  display: flex;
+  justify-content: space-between; /* Spread the items horizontally */
+  align-items: center; /* Center the items vertically */
+  height: 100%; /* Make the container height 100% to fill the footer */
+  flex-direction: column; /* Stack items vertically on small screens */
+  justify-content: center; /* Center items vertically on small screens */
+}
+
+/* Style for the link in the footer */
+.footer-imprint a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Style for the link on hover */
+.footer-imprint a:hover {
+  text-decoration: underline;
+}
+
+/* Add padding to the bottom of the content container */
+main {
+  padding-bottom: 60px; /* Should be the same height as the footer */
+}
+

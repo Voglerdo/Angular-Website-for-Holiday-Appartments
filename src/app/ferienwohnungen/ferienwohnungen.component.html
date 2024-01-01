@@ -1,0 +1,18 @@
+<nav>
+  <div class="nav nav-tabs">
+    <a class="nav-item nav-link"
+      [class.active]="activeTab === 'Rubihorn'"
+      (click)="setActiveTab('Rubihorn')">
+      <span class="fa fa-mountain"></span>
+      Rubihorn
+    </a>
+    
+    <a class="nav-item nav-link"
+      [class.active]="activeTab === 'Nebelhorn'"
+      (click)="setActiveTab('Nebelhorn')">
+      <span class="fa fa-mountain"></span>
+      Nebelhorn
+    </a>
+  </div>
+</nav>
+

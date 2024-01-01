@@ -1,0 +1,19 @@
+.mat-toolbar {
+    background-color: #202B3D;
+    color: white;
+  }
+  
+  .spacer {
+    flex: 1 1 auto;
+  }
+
+  /* Ändere die Schriftfarbe zu Weiß */
+  .navbar-nav .nav-link {
+    color: white;
+    font-size: 140%;
+  }
+
+  /* Füge den Hover-Effekt hinzu */
+  .navbar-nav .nav-link:hover {
+    color: yellow; /* Du kannst die gewünschte Farbe hier anpassen */
+  }

@@ -1,0 +1,43 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery a {
+  margin: 10px;
+}
+
+.gallery img {
+  max-width: 200px;
+  height: auto;
+}
+
+button {
+  margin-bottom: 50px;
+  }
+
+.ueber{
+  margin-bottom: 20px;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 6px;
+  margin-top: 50px;
+}
+
+/* only on non-mobile */
+@media (min-width: 576px) {
+  .carousel-item img {
+      width: auto !important;
+      height: 400px;
+      max-height: 400px;
+  }
+}
